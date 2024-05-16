@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-cover bg-no-repeat bg-fixed" style="background-image: url('https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif?raw=true');"> 
+    <div class="container   mt-12 ">
+   <div class=" font-extrabold text-white  text-3xl  flex justify-center items-center" >Calculate a Weight of an Object on a Planet</div>
+    <div class="flex justify-center mt-10" >
+    <input class=" border-slate-400  h-10  w-48 p-3  " placeholder="Mass in Kg" id="weight">
+    <label for="planet" class=" border-slate-500 " > Planet </label>
+    <select id="planet">
+        <option id="mercury" value="mercury">Mercury</option>
+        <option id="Venus" value="Venus">Venus</option>
+        <option id="Earth" value="Earth">Earth</option>
+        <option id="Mars" value="Mars">Mars</option>
+        <option id="Jupiter" value="Jupiter">Jupiter</option>
+        <option id="Saturn" value="Saturn">Saturn</option>
+        <option id="Uranus" value="Uranus">Uranus</option>
+        <option id="Neptune" value="Neptune">Neptune</option>
+        <option id="Moon" value="Moon">Moon</option>
+    </select>
+    <button id="calci" class=" bg-yellow-300 font-mono p-2 ml-6">Calculate </button>
+</div>
+<div class=" container  flex mt-12 ">
+    
+    <img class="ml-20 " id="image" src="https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/24_Day_Project_solar_system/24_day_starter/images/mercury.png?raw=true">
+    <div id="elementToDisplay" class="p-10 hidden w-11/12 h-36  border-4 border-red-100 ml-96 bg-opacity-30  bg-gray-200  mt-20">
+        <div class=" w-10/12 h-30 border-3 border-yellow-100 bg-gray-300  bg-opacity-40 p-3 ml-10 ">
+        <p class="text-yellow-100 text-4xl  ml-28  font-light ">  ENTER VALID MASS  </p>
+    </div>
+    </div>
+    <div id="mass" class=" w-96 h-48  text-4xl text-yellow-200 font-medium flex justify-center items-center ml-48 border-gray-300 shadow-md "></div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
