@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(236, 249, 249);
+}
+
+#header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pa-links {
+    margin-top: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(24, 160, 197);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#bg{
+    background-image: url(mountains-55067_640.webp);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#section-one {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.padd {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    height: 200px;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    font-size: 33px;
+    font-weight: 550;
+    color:white;
+    text-align: center;
+}
+
+#logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(58, 56, 56);
+}
+
+#section-two {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.image-section-two {
+    margin-left: 80px;
+    height: 500px;
+}
+
+.parent-one {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.child-one {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.child-two {
+    color: rgb(51, 164, 51);
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.child-three {
+    margin-top: 40px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: rgb(137, 135, 135);
+    text-align: justify;
+}
+
+#section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgb(137, 135, 135);
+}
+.image-section-three{
+    width:70%;
+    height: 70%;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(137, 135, 135);
+}
+.links-home{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(24, 160, 197);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: 0.5px solid rgb(24, 160, 197);
+}
